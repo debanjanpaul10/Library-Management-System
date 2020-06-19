@@ -99,9 +99,10 @@ void printCentre (const char* message) {
 
 void softName(const char* message) {
     system("cls");      //  Clear screen
-    printf("\n\t\t\t\t*******************************************************************************");
+    printf(" ");
+    printf("\n\n\n\t\t\t\t*******************************************************************************");
     printf("\n\n\t\t\t\t------------------------------------------------------------------------------");
-    printf("\n\t\t\t\t------------------      LIBRARY BOOKS MANAGEMENT SYSTEM      ------------------");
+    printf("\n\t\t\t\t------------------      LIBRARY BOOKS MANAGEMENT SYSTEM      -----------------");
     printf("\n\t\t\t\t------------------------------------------------------------------------------");
     printf("\n\n");
     printCentre(message);
